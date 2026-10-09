@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Main" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="ZYDARK" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@color/zydark_primary</item>
+        <item name="android:colorPrimaryDark">@color/zydark_primary_dark</item>
+        <item name="android:colorAccent">@color/zydark_secondary</item>
+        <item name="android:colorBackground">@color/zydark_background</item>
+        <item name="android:colorForeground">@color/zydark_on_background</item>
+        <item name="android:windowBackground">@color/zydark_background</item>
+        <item name="android:statusBarColor">@color/zydark_background</item>
+        <item name="android:navigationBarColor">@color/zydark_surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:textColorPrimary">@color/zydark_on_background</item>
+        <item name="android:textColorSecondary">@color/zydark_on_surface_variant</item>
+        <item name="android:textColorHint">@color/zydark_on_surface_variant</item>
+    </style>
+
+    <style name="ZYDARK.Splash" parent="ZYDARK">
+        <item name="android:windowBackground">@drawable/splash_zydark</item>
+    </style>
+
+    <style name="ZYDARK.Dialog" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">@color/zydark_primary</item>
+        <item name="android:colorBackground">@color/zydark_surface</item>
+        <item name="android:textColorPrimary">@color/zydark_on_background</item>
+        <item name="android:textColorSecondary">@color/zydark_on_surface_variant</item>
+    </style>
 
 </resources>
