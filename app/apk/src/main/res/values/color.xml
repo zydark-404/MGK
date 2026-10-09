@@ -1,1 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="zydark_primary">#7C4DFF</color>
+    <color name="zydark_primary_dark">#5E35B1</color>
+    <color name="zydark_primary_light">#B388FF</color>
+    <color name="zydark_secondary">#00E5FF</color>
+    <color name="zydark_secondary_dark">#00B8D4</color>
 
+    <color name="zydark_background">#0D0D1A</color>
+    <color name="zydark_surface">#16162A</color>
+    <color name="zydark_surface_variant">#1F1F38</color>
+    <color name="zydark_card">#1A1A2E</color>
+    <color name="zydark_divider">#2A2A45</color>
+
+    <color name="zydark_on_primary">#FFFFFF</color>
+    <color name="zydark_on_background">#E8E8F0</color>
+    <color name="zydark_on_surface">#D0D0E0</color>
+    <color name="zydark_on_surface_variant">#9090A8</color>
+
+    <color name="zydark_success">#4CAF50</color>
+    <color name="zydark_warning">#FFC107</color>
+    <color name="zydark_error">#F44336</color>
+    <color name="zydark_info">#29B6F6</color>
+
+    <color name="zydark_icon_tint">#B0B0C8</color>
+    <color name="zydark_icon_tint_active">#7C4DFF</color>
+    <color name="zydark_ripple">#33FFFFFF</color>
+
+    <color name="zydark_shield_green">#4CAF50</color>
+    <color name="zydark_shield_red">#F44336</color>
+    <color name="zydark_shield_yellow">#FFC107</color>
+
+    <color name="zydark_black">#000000</color>
+    <color name="zydark_white">#FFFFFF</color>
+    <color name="zydark_transparent">#00000000</color>
+</resources>
